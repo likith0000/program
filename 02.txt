@@ -1,0 +1,30 @@
+import numpy as np
+a = np.array([10,15,20,15,30])
+print(a)
+# To find the sum of all element
+sum = np.sum(a)
+print("The sum=",sum)
+# To find average 
+avg= np.mean(a)
+print(" The averge = ", avg)
+# To find median
+mid = np.median(a)
+print(" The median = ", mid)
+# To find minimum element
+minimum = np.min(a)
+print (" The minimum value =",minimum)
+# To find maximum element
+maximum = np.max(a)
+print ("The maximum value =",maximum)
+# To identify index
+min_index = np.argmin(a)
+print("The minimum index is =",min_index)
+# To identify index
+max_index = np.argmax(a)
+print("The maximum index is =",max_index)
+# To find standard deviation
+std_dev = np.std(a)
+print("The standard deviation=",std_dev)
+# To find variance
+variance = np.var(a)
+print("The variation=",variance)
